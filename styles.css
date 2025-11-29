@@ -1,0 +1,25 @@
+#ai-studio-scroll-btn {
+  display: block;
+  width: 98%; /* Slightly less than 100 to allow for margins */
+  margin: 10px auto;
+  padding: 12px;
+  background-color: #2d2e30;
+  color: #a8c7fa;
+  border: 1px solid #444746;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Google Sans', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  transition: background-color 0.2s ease;
+  z-index: 999;
+}
+
+#ai-studio-scroll-btn:hover {
+  background-color: #3c4043;
+}
+
+#ai-studio-scroll-btn:active {
+  background-color: #1f1f1f;
+}
